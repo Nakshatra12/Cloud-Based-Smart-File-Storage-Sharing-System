@@ -243,6 +243,8 @@ gcloud run deploy smart-drive \
 - Successfull Upload Alert
 - Displaying Files
 - Download & Sharable Link
+- Meta data in Firestore
+- Storage Bucket
 - Demo video.
 
 ## 🚀 Future Enhancements
