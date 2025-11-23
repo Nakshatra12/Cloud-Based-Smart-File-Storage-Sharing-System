@@ -16,27 +16,27 @@ S Nakshatra
 
 ## 📌 Table of Contents
 
-Project Overview
+- Project Overview
 
-Features
+- Features
 
-Technology Stack
+- Technology Stack
 
-Architecture
+- Architecture
 
-Project Structure
+- Project Structure
 
-Backend API Endpoints
+- Backend API Endpoints
 
-How to Run Locally
+- How to Run Locally
 
-Deployment on Google Cloud
+- Deployment on Google Cloud
 
-Screenshots / Demo
+- Screenshots / Demo
 
-Future Enhancements
+- Future Enhancements
 
-License
+- License
 
 ## 📖 Project Overview
 
@@ -128,42 +128,76 @@ Cloud Storage  ← Stores files securely
 Firestore DB  ← Stores file metadata
 
 ## 📁 Project Structure
+
 smart-drive-backend/
+
 │── app.py
+
 │── config.py
+
 │── requirements.txt
+
 │── Dockerfile
+
 │── runtime.txt
+
 │── .env
+
 │
 ├── controllers/
+
 │   ├── user_controller.py
+
 │   └── file_controller.py
+
 │
 ├── utils/
+
 │   ├── jwt_token.py
+
 │   └── auth.py
+
 │
+
 frontend/
+
 │── index.html
+
 │── signup.html
+
 │── dashboard.html
+
 │── script.js
+
 │── style.css
 
+
 ## 🔌 Backend API Endpoints
+
 ### 🔹 Auth APIs
+
 Method	Endpoint	Description
+
 POST	/signup	Create user
+
 POST	/login	Login & get JWT token
+
 ### 🔹 File APIs
+
 Method	Endpoint	Description
+
 POST	/upload	Upload file
+
 GET	/files	List user files
+
 DELETE	/delete/<filename>	Delete file
+
 GET	/share/<filename>	Generate share link
+
 ### 💻 How to Run Locally
+
 #### 1️⃣ Install dependencies
+
 pip install -r requirements.txt
 
 #### 2️⃣ Set environment variables
@@ -183,7 +217,9 @@ Backend runs on:
 http://127.0.0.1:5000
 
 ## ☁ Deployment (Google Cloud Run)
+
 #### Build container:
+
 gcloud builds submit --tag asia-south1-docker.pkg.dev/PROJECT_ID/smartdrive-repo/smartdrive .
 
 #### Deploy:
@@ -198,18 +234,32 @@ demo video.
 
 ## 🚀 Future Enhancements
 
-Folder support
+- Folder support
 
-Delete confirmation modal
+- Delete confirmation modal
 
-Drag & Drop file upload
+- Drag & Drop file upload
 
-Shareable public links
+- Shareable public links
 
-File preview (PDF/Image)
+- File preview (PDF/Image)
 
-User profile
+- User profile
 
-📄 License
+## 📄 License
 
-This project is for educational purposes.
+- This project is for educational purposes.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
