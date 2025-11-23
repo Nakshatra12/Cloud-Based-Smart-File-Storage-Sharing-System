@@ -236,7 +236,14 @@ gcloud run deploy smart-drive \
 
 ## 🎥 Screenshots / Demo
 
-demo video.
+- Backend Working
+- Sign up page
+- Login page
+- Files Uploading Dashboard
+- Successfull Upload Alert
+- Displaying Files
+- Download & Sharable Link
+- Demo video.
 
 ## 🚀 Future Enhancements
 
