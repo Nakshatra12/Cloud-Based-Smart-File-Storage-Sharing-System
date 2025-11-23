@@ -10,6 +10,12 @@ To design and deploy a secure, scalable, and efficient cloud-based file storage 
 ✔ Access the backend via Cloud Run
 ✔ Enjoy a clean, simple UI
 
+### Working Cloud URL (Live Backend API)
+
+- This is your live deployed Cloud Run backend:
+
+🌐 https://smart-drive-bucket-365649411877.asia-south1.run.app
+
 ### 👤 Author
 
 S Nakshatra
