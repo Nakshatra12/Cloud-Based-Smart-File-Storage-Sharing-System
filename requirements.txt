@@ -1,9 +1,0 @@
-flask
-flask-cors
-google-cloud-storage
-google-cloud-firestore
-python-dotenv
-werkzeug
-pyjwt
-firebase-admin
-gunicorn
